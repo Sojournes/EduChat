@@ -209,7 +209,7 @@ if uploaded_file:
                 }
 
 # Display content if available in session state
-if st.session_state.chapter_data:
+if "chapter_data" in st.session_state and st.session_state.chapter_data:
     # Create tabs for content display
     tab1, tab2 = st.tabs(["Study Guide", "Practice Questions"])
     
