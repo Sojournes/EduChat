@@ -40,10 +40,10 @@ EduChat is an AI-powered study assistant designed to help students with exam pre
    ```
 3. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install streamlit anthropic PyPDF2 pdfplumber python-dotenv
    ```
 4. Set up environment variables:
-   - Rename `.env.example` to `.env` and add your API keys:
+   - Make `.env` and add your API keys:
      ```plaintext
      ANTHROPIC_API_KEY=your_anthropic_api_key
      SERPER_API_KEY=your_serper_api_key
@@ -53,7 +53,7 @@ EduChat is an AI-powered study assistant designed to help students with exam pre
 
 1. **Run the application**
    ```bash
-   streamlit run app.py
+   streamlit run app3.py
    ```
 2. **Upload a textbook PDF** to generate summaries and practice questions.
 3. **Enter an exam name** to generate relevant study topics and learning resources.
