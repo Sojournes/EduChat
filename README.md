@@ -4,9 +4,7 @@ EduChat is an AI-powered study assistant designed to help students with **exam p
 
 ## 📸 Screenshots  
 
-![image](https://github.com/user-attachments/assets/bda7067a-cf42-4bfb-9a68-9c5d3ea7c4af)  
-
-![image](https://github.com/user-attachments/assets/4abfd36d-7eba-47f6-b5f3-df0ce022bfbe)  
+![image](https://github.com/user-attachments/assets/bda7067a-cf42-4bfb-9a68-9c5d3ea7c4af)  ![image](https://github.com/user-attachments/assets/4abfd36d-7eba-47f6-b5f3-df0ce022bfbe)  
 
 ## 🚀 Features  
 
