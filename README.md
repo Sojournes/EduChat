@@ -1,72 +1,79 @@
-# 📚 EduChat - AI Study Companion
+# 📚 EduChat - AI Study Companion  
 
-EduChat is an AI-powered study assistant designed to help students with exam preparation and textbook comprehension. It uses advanced AI models to generate structured study materials, practice questions, and relevant learning resources.
+EduChat is an AI-powered study assistant designed to help students with **exam preparation** and **textbook comprehension**. It leverages AI models to generate structured study materials, practice questions, and relevant learning resources.  
 
-## Image
+## 📸 Screenshots  
 
-![image](https://github.com/user-attachments/assets/4abfd36d-7eba-47f6-b5f3-df0ce022bfbe)
+![image](https://github.com/user-attachments/assets/bda7067a-cf42-4bfb-9a68-9c5d3ea7c4af)  
 
-## 🚀 Features
+![image](https://github.com/user-attachments/assets/4abfd36d-7eba-47f6-b5f3-df0ce022bfbe)  
 
-### 1. **Textbook Summarization & Question Generation**
-- Upload a textbook PDF to extract chapters.
-- Generate structured chapter summaries, key concepts, formulas, and practice questions.
-- Ask AI-powered questions and receive detailed answers.
+## 🚀 Features  
 
-### 2. **Exam-Specific Study Guide & Resources**
-- Enter an exam name to generate relevant study topics.
-- Get a comprehensive study guide with key concepts, formulas, and practice exercises.
-- Discover additional learning materials including YouTube videos and recommended books.
+### **1️⃣ Book Chat - AI-Powered Textbook Learning**  
+- **Upload a textbook PDF** to extract chapters.  
+- **Generate structured chapter summaries**, key concepts, formulas, and practice questions.  
+- **Ask AI-powered questions** and receive contextual answers using **ChromaDB for retrieval**.  
 
-## 🛠️ Tech Stack
-- **Frontend**: Streamlit
-- **AI Models**: Anthropic Claude
-- **PDF Processing**: PyPDF2, pdfplumber
-- **Search & External Resources**: Serper API
-- **Environment Management**: dotenv
+### **2️⃣ Exam Content Generator - Dynamic Study Guides**  
+- **Enter an exam name** to generate relevant study topics using AI.  
+- **Receive a structured study guide** with key concepts, formulas, example problems, and study tips.  
+- **Discover additional resources** with curated **YouTube videos and books** via **Serper API**.  
 
-## 📥 Installation
+## 🛠️ Tech Stack  
 
-1. Clone the repository:
+- **Frontend**: Streamlit  
+- **AI Models**: OpenAI (via BoltIoT)  
+- **Database**: ChromaDB (for document retrieval and AI-powered search)  
+- **PDF Processing**: PyPDF2, pdfplumber  
+- **Search & External Resources**: Serper API  
+- **Environment Management**: dotenv  
+
+## 📥 Installation  
+
+1. **Clone the repository:**  
    ```bash
    git clone https://github.com/your-username/educhat-ai.git
    cd educhat-ai
    ```
-2. Create a virtual environment and activate it:
+2. **Create a virtual environment and activate it:**  
    ```bash
    python -m venv venv
-   source venv/bin/activate   # On macOS/Linux
-   venv\Scripts\activate      # On Windows
-   ```
-3. Install dependencies:
+   source venv/bin/activate   # On macOS/Linux  
+   venv\Scripts\activate      # On Windows  
+   ```  
+3. **Install dependencies:**  
    ```bash
-   pip install streamlit anthropic PyPDF2 pdfplumber python-dotenv
-   ```
-4. Set up environment variables:
-   - Make `.env` and add your API keys:
+   pip install -r requirements.txt
+   ```  
+4. **Set up environment variables:**  
+   - Create a `.env` file in the root directory and add your API keys:  
      ```plaintext
-     ANTHROPIC_API_KEY=your_anthropic_api_key
+     OPENAI_API_KEY=your_openai_api_key
      SERPER_API_KEY=your_serper_api_key
-     ```
+     ```  
 
-## ▶️ Usage
+## ▶️ Usage  
 
-1. **Run the application**
+1. **Run the application:**  
    ```bash
-   streamlit run app3.py
-   ```
-2. **Upload a textbook PDF** to generate summaries and practice questions.
-3. **Enter an exam name** to generate relevant study topics and learning resources.
+   streamlit run EduChat.py
+   ```  
+2. **Upload a textbook PDF** to generate summaries and practice questions.  
+3. **Enter an exam name** to generate relevant study topics and learning resources.  
 
-## 📌 Contributing
-We welcome contributions! To contribute:
-- Fork this repository.
-- Create a new branch.
-- Commit your changes and open a pull request.
+## 📌 Contributing  
 
-## 📧 Contact
-For questions or feedback, reach out via diwakersehgal16@gmail.com.
+We welcome contributions! To contribute:  
+- Fork this repository.  
+- Create a new branch.  
+- Commit your changes and open a pull request.  
 
----
-Built with ❤️ using Anthropic Claude, Streamlit, and Serper API.
+## 📧 Contact  
 
+For questions or feedback, reach out via **diwakersehgal16@gmail.com**.  
+
+---  
+
+Built with ❤️ using **OpenAI (via BoltIoT), ChromaDB, Streamlit, and Serper API**.  
+```
