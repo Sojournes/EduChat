@@ -3,10 +3,10 @@ import streamlit as st
 from dotenv import load_dotenv
 import re
 import requests
-from boltiotai import openai
+import openai
 
 # Load environment variables
-load_dotenv('.env.example')
+load_dotenv('.env')
 
 # Streamlit page config
 st.set_page_config(page_title="ExamChat - AI Study Companion", page_icon="📚", layout="wide")
