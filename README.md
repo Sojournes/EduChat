@@ -25,7 +25,7 @@ EduChat is an AI-powered study assistant designed to help students with **exam p
 ## 🛠️ Tech Stack  
 
 - **Frontend**: Streamlit  
-- **AI Models**: OpenAI (via BoltIoT)  
+- **AI Models**: OpenAI
 - **Database**: ChromaDB (for document retrieval and AI-powered search)  
 - **PDF Processing**: PyPDF2, pdfplumber  
 - **Search & External Resources**: Serper API  
@@ -77,5 +77,5 @@ For questions or feedback, reach out via **diwakersehgal16@gmail.com**.
 
 ---  
 
-Built with ❤️ using **OpenAI (via BoltIoT), ChromaDB, Streamlit, and Serper API**.  
+Built with ❤️ using **OpenAI, ChromaDB, Streamlit, and Serper API**.  
 ```
