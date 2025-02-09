@@ -8,10 +8,10 @@ import pdfplumber
 import PyPDF2
 import chromadb
 from chromadb.utils import embedding_functions
-from boltiotai import openai  # Using the BoltIoT wrapper
+import openai
 
 # Load environment variables
-load_dotenv('.env.example')
+load_dotenv('.env')
 
 # Streamlit page config
 st.set_page_config(page_title="BookChat - AI Study Companion", page_icon="📚", layout="wide")
